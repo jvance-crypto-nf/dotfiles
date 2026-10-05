@@ -1,0 +1,12 @@
+[user]
+	email = julian.vance.nf@proton.me
+	name = jvance
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[pull]
+	rebase = true
+[alias]
+	st = status -sb
+	lg = log --oneline --graph --decorate
