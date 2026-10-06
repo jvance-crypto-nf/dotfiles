@@ -1,0 +1,11 @@
+# identity escrow — pulled from Operator Zero's host.
+# Sealed with OpenSSL AES-256-CBC (-pbkdf2).
+# The passphrase has TWO parts joined by a colon:
+#    <my CryptVPS passphrase>:<my PGP key fingerprint, 40 hex chars, UPPERCASE, no spaces>
+# (the fingerprint is on my public key — look it up by my email on keys.openpgp.org)
+#
+# unseal:
+#   printf '%s' '<blob below>' \
+#     | openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -a -A -pass pass:<cryptvps>:<FINGERPRINT>
+#
+U2FsdGVkX19MKm3wV9/XOmm/fhfKycCkmzBgaMDQbcPrBxOxb/2nhZ+1oB2iCUDnk+RuDlLir8nK2f/65+TtYA==
