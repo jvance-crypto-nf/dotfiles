@@ -5,7 +5,6 @@
 # (the fingerprint is on my public key — look it up by my email on keys.openpgp.org)
 #
 # unseal:
-#   printf '%s' '<blob below>' \
-#     | openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -a -A -pass pass:<cryptvps>:<FINGERPRINT>
+#   printf '%s' '<blob below>' \#     | openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -a -A -pass pass:<cryptvps>:<FINGERPRINT>
 #
-U2FsdGVkX19MKm3wV9/XOmm/fhfKycCkmzBgaMDQbcPrBxOxb/2nhZ+1oB2iCUDnk+RuDlLir8nK2f/65+TtYA==
+U2FsdGVkX1/DyWmTPKLrXBG68ElnxItNVptkVoFkQh3lc8PdhJXCSdOH2IUgKpoQ79j3qfdrbGzRgGtGx3DmJA==
